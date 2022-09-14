@@ -10,9 +10,12 @@ const number = [
 
 test.each(number)(
   "returns if all numbers are positive",
-  (firstNumber, secondNumber, thirdNumber, isPositive) => {
-    const positiveOrNegative =
-      cubicVolume(firstNumber, secondNumber, thirdNumber) >= 0;
-    expect(isPositive).toBe(positiveOrNegative);
+  (firstNumber, secondNumber, thirdNumber, product) => {
+    const calculatedVolume = cubicVolume(
+      firstNumber,
+      secondNumber,
+      thirdNumber
+    );
+    expect(product).toBe(calculatedVolume);
   }
 );
