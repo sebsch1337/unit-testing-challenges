@@ -1,7 +1,7 @@
 {
   "name": "unit-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "You will use the JavaScript files in the js folder for these challenges.",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,13 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebsch1337/unit-testing-challenges.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebsch1337/unit-testing-challenges/issues"
+  },
+  "homepage": "https://github.com/sebsch1337/unit-testing-challenges#readme"
 }
